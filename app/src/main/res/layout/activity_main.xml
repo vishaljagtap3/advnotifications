@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Notification" />
+
+    <Button
+        android:id="@+id/btnBigTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="big Text style" />
+
+    <Button
+        android:id="@+id/btnBigPicStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="big Pic style" />
+
+    <Button
+        android:id="@+id/btnInboxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inbox style" />
+
+    <Button
+        android:id="@+id/btnAddAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Action Button" />
+
+    <Button
+        android:id="@+id/btnReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reply btn notification" />
+
+    <Button
+        android:id="@+id/btnSnackBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snackbar" />
+
+
+</LinearLayout>
